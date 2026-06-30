@@ -11,14 +11,14 @@ wemos_code.ino
 // Puente entre Arduino Mega y Cloud Firestore.
 // Serial a 9600 para comunicarse con el Mega.
 
-const char* WIFI_SSID = "ifon";
-const char* WIFI_PASSWORD = "12345678";
+const char* WIFI_SSID = "....";
+const char* WIFI_PASSWORD = "....";
 
-const char* FIREBASE_API_KEY = "AIzaSyBpifbCMpT_Q9NgkLNoq_IkR46d5nYor0k";
-const char* FIREBASE_PROJECT_ID = "urbapark-bd";
+const char* FIREBASE_API_KEY = "....";
+const char* FIREBASE_PROJECT_ID = "....";
 
-const char* HARDWARE_EMAIL = "hardware@urbapark.com";
-const char* HARDWARE_PASSWORD = "bella123_";
+const char* HARDWARE_EMAIL = "....";
+const char* HARDWARE_PASSWORD = "....";
 
 const unsigned long POLL_FIRESTORE_MS = 3000;
 const unsigned long TOKEN_REFRESH_MS = 45UL * 60UL * 1000UL;
